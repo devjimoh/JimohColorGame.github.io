@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: bisque;
+    background-image: linear-gradient(to right,white,red,yellow,orange,green,blue,indigo,violet,white);
   }
   
   .game-container {
