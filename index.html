@@ -9,16 +9,14 @@
 <body>
   <div class="game-container">
     <h1>THE COLOR GAME</h1>
-    <div id="color-display"></div>
-    <h3>WHAT COLOR IS THIS ?</h3>
+    <div id="color-display" data-testid="colorBox"></div>
+    <h3 data-testid="gameInstructions">GUESS THE CORRECT COLOR</h3>
     
-    <div id="color-options">
-      
-    </div>
-    <div id="scoreboard">Score: 0</div>
+    <div id="color-options" data-testid="colorOption"></div>
+    <div id="scoreboard" data-testid="score">Score: 0</div>
     <div id="highest-score">Highest Score: 0</div>
     <div id="game-over" class="hidden">Opps! GAME OVER!</div>
-    <button id="new-game-btn">New Game</button>
+    <button id="new-game-btn" data-testid="newGameButton">New Game</button>
   </div>
   <script src="script.js"></script>
 </body>
