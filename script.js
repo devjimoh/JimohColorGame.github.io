@@ -45,20 +45,6 @@ function createColorOptions() {
   colorDisplay.style.backgroundColor = correctColor;
 }
 
-function showCorrectMessage() {
-  const correctMessage = document.createElement('div');
-  correctMessage.textContent = 'CORRECT!';
-  correctMessage.style.position = 'absolute';
-  correctMessage.style.top = '50%';
-  correctMessage.style.left = '50%';
-  correctMessage.style.transform = 'translate(-50%, -50%)';
-  correctMessage.style.fontSize = '2rem';
-  correctMessage.style.color = 'green';
-  correctMessage.style.fontWeight = 'bold';
-  correctMessage.style.animation = 'fadeOut 0.5s ease-in-out';
-  document.body.appendChild(correctMessage);
-  setTimeout(() => correctMessage.remove(), 1000);
-}
 
 function checkColor(selectedColor) {
   if (!gameActive) return;
