@@ -44,7 +44,6 @@ function createColorOptions() {
   });
   colorDisplay.style.backgroundColor = correctColor;
 }
-
 function checkColor(selectedColor) {
   if (!gameActive) return;
 
